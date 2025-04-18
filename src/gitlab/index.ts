@@ -42,6 +42,7 @@ import {
   GetProjectIdFromMrUrlInputSchema,
   GetProjectIdFromMrUrlOutputSchema,
   CreateMergeRequestDiffThreadSchema,
+  GetLatestMergeRequestVersionInputSchema,
   type GitLabFork,
   type GitLabReference,
   type GitLabRepository,
@@ -61,10 +62,6 @@ import {
   type GetProjectIdFromMrUrlOutput,
   type CreateMergeRequestDiffThreadInput,
   type GetLatestMergeRequestVersionInput,
-} from './schemas.js';
-
-import {
-  GetLatestMergeRequestVersionInputSchema,
 } from './schemas.js';
 
 const server = new Server({
